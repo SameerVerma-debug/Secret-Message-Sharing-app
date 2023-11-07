@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Secret Messaging App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <div id="message-container">
+      <form class="card">
+        <label for="message-input">Enter a secret message</label>
+        <input type="text" id="message-input">
+        <button type="submit" id="create-button">CREATE</button>
+      </form>
+    </div>
+    <div id="link-container" class="hide card">
+      Share this link with your friend
+      <input type="text" id="link-input">
+    </div>
+    <div id="message-show-container" class="hide card">
+      <h1>Secret Message is</h1>
+      <p style="font-weight: 500; font-size: 1.4rem;"></p>
+      <a href="./index.html">Create Your own secret message</a>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
